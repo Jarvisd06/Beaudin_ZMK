@@ -1,7 +1,7 @@
 if SHIELD_BEAUDIN_V2_LEFT
 
 # Settings for left side only
-config ZMK_KEYBOARD NAME
+config ZMK_KEYBOARD_NAME
     default "Beaudin BT"
 
 config ZMK_SPLIT_ROLE_CENTRAL
