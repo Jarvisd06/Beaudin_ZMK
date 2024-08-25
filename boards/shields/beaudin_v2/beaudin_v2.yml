@@ -1,0 +1,12 @@
+file_format: "1"
+id: beaudin_v2
+name: beaudin_v2
+type: shield
+url: 
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - beaudin_v2_left
+  - beaudin_v2_right
