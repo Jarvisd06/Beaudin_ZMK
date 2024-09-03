@@ -1,5 +1,5 @@
 config SHIELD_BEAUDIN_V2_LEFT
-    def_bool $(shields_list_contains, beaudin_v2_left)
+    def_bool $(shields_list_contains,beaudin_v2_left)
 
 config SHIELD_BEAUDIN_V2_RIGHT
-    def_bool $(shields_list_contains, beaudin_v2_right)
+    def_bool $(shields_list_contains,beaudin_v2_right)
