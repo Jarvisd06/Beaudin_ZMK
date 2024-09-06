@@ -6,6 +6,7 @@ url:
 requires: [nice_nano_v2]
 features:
   - keys
+  - display
 siblings:
   - beaudin_v2_left
   - beaudin_v2_right

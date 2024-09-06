@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: beaudin_v2_left
+    shield: beaudin_v2_left nice_view
   - board: nice_nano_v2
-    shield: beaudin_v2_right
+    shield: beaudin_v2_right nice_view
