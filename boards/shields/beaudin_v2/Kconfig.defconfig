@@ -13,10 +13,10 @@ endif
 if SHIELD_BEAUDIN_V2_LEFT || SHIELD_BEAUDIN_V2_RIGHT
 
 config ZMK_DISPLAY
-    deafult y
+    default y
 
 config ZMK_DISPLAY_BLANK_ON_IDLE
-    deault n
+    default n
 
 # Settings from Niceview example without the shield if condition
 config LV_Z_VDB_SIZE
