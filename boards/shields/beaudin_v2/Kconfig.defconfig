@@ -12,13 +12,10 @@ endif
 # Settings for either left or right side
 if SHIELD_BEAUDIN_V2_LEFT || SHIELD_BEAUDIN_V2_RIGHT
 
-config ZMK_DISPLAY
-    default y
+endif # SHIELD_BEAUDIN_V2_LEFT || SHIELD_BEAUDIN_V2_RIGHT
 
-config ZMK_DISPLAY_BLANK_ON_IDLE
-    default n
+if SHIELD_NICE_VIEW
 
-# Settings from Niceview example without the shield if condition
 config LV_Z_VDB_SIZE
     default 100
 
@@ -68,4 +65,5 @@ endif # !ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_DISPLAY_STATUS_SCREEN_BUILT_IN
     select LV_FONT_MONTSERRAT_26
 
-endif # SHIELD_BEAUDIN_V2_LEFT || SHIELD_BEAUDIN_V2_RIGHT
+endif # SHIELD_NICE_VIEW
+
